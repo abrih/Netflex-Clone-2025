@@ -1,0 +1,53 @@
+.Footerwraper{
+color: grey;
+
+}
+
+
+
+
+
+
+.InnerFooterWraper{
+    
+    display: flex;
+
+   /* padding-right: 200px;
+   padding-left: 200px; */
+   justify-content: space-between;
+    opacity: 0.8;
+    width: 100%;
+    position:sticky
+}
+
+
+.InnerFooterWraper ul{
+    list-style: none;
+    line-height: 30px;
+}
+.InnerFooterWraper ul li:hover{
+color: white;
+}
+.serviceCode{
+    border: 2px solid white;
+}
+
+.incons{
+display: flex;
+gap: 30px;
+}
+.incons div:hover{
+    color: white;
+}
+
+.copywrite{
+   text-align: center;
+}
+.copywrite:hover{
+color: white;
+}
+
+@media (max-width: 768px) {
+    .remvMobileview{
+       display: none;
+    }}
